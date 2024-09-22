@@ -5,9 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{meta_title}}</title>
-    <Content-type:= application/JavaScript; charset=UTF-8")></Content-type:>
     <link rel="stylesheet" href="{{asset "built/screen.css"}}">
-    <link rel="stylesheet" href="{{asset "built/cookieconsent.css"}}">    
+    <link rel="stylesheet" href="{{asset "jsdelivr/cookieconsent.css"}}">    
 
     {{ghost_head}}
 </head>
@@ -106,7 +105,8 @@
 {{/is}}
 
 <script src="{{asset "built/main.min.js"}}"></script>
-<script type="module" src="{{asset "js/cookieconsent-config.js"}}"></script>
+<script src="{{asset "jsdelivr/cookieconsent.umd.js"}}"></script>
+<script src="{{asset "js/cookieconsent-config.js"}}"></script>
 
 {{ghost_foot}}
 

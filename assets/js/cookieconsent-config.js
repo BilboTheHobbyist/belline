@@ -1,4 +1,4 @@
-import '../built/cookieconsent.umd.js';
+/** import '/built/cookieconsent.umd.js'; */
 
 /**
  * All config. options available here:
@@ -17,8 +17,14 @@ CookieConsent.run({
     language: {
         default: 'fr',
         translations: {
-            fr: './assets/js/cc_fr.json',
-            en: './assets/js/cc_en.json'
+            fr: async () => {
+                const res = await fetch('/assets/js/cc_fr.json');
+                return await res.json();
+            },
+            en: async () => {
+                const res = await fetch('/assets/js/cc_en.json');
+                return await res.json();
             }
+        }
     }
 });
