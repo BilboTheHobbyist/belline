@@ -78,7 +78,7 @@ function js(done) {
 function portal(done) {
     pump([
         src('node_modules/@tryghost/portal/umd/*.js'),
-        dest('assets/jsdevlir/', {sourcemaps: '.'}),
+        dest('assets/jsdelivr/', {sourcemaps: '.'}),
         livereload()
     ], handleError(done));
 }
@@ -89,7 +89,7 @@ function sodosearch(done) {
             'node_modules/@tryghost/sodo-search/umd/*.js',
             'node_modules/@tryghost/sodo-search/umd/*.css'
         ]),
-        dest('assets/jsdevlir/', {sourcemaps: '.'}),
+        dest('assets/jsdelivr/', {sourcemaps: '.'}),
         livereload()
     ], handleError(done));
 }
@@ -100,7 +100,7 @@ function cookieconsent(done) {
             'node_modules/vanilla-cookieconsent/dist/*.js',
             'node_modules/vanilla-cookieconsent/dist/*.css'
         ]),
-        dest('assets/built/', {sourcemaps: '.'}),
+        dest('assets/jsdelivr/', {sourcemaps: '.'}),
         livereload()
     ], handleError(done));
 }
