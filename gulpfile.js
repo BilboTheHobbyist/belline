@@ -96,8 +96,10 @@ function sodosearch(done) {
 
 function cookieconsent(done) {
     pump([
-        src(['node_modules/vanilla-cookieconsent/dist/*.js',
-        'node_modules/vanilla-cookieconsent/dist/*.css']),
+        src([
+            'node_modules/vanilla-cookieconsent/dist/*.js',
+            'node_modules/vanilla-cookieconsent/dist/*.css'
+        ]),
         dest('assets/built/', {sourcemaps: '.'}),
         livereload()
     ], handleError(done));

@@ -5,7 +5,7 @@
         "acceptAllBtn": "Tout accepter",
         "acceptNecessaryBtn": "Tout refuser",
         "showPreferencesBtn": "Gérer vos préférences",
-        "footer": "<a href=\"#/privacy/\">Politique de confidentialité</a>\n<a href=\"#/term/\">Termes et conditions</a>"
+        "footer": "<a href=\"/privacy/\">Politique de confidentialité</a>\n<a href=\"/term/\">Termes et conditions</a>"
     },
     "preferencesModal": {
         "title": "Gestion des préférences",
@@ -31,7 +31,7 @@
             },
             {
                 "title": "Information complémentaire",
-                "description": "Pour toute demande en lien avec les cookies, leur gestion et vos choix, n'hésitez pas à<a class=\"cc__link\" href=\"#/contact/\">me contacter</a>."
+                "description": "Pour toute demande en lien avec les cookies, leur gestion et vos choix, n'hésitez pas à<a class=\"cc__link\" href=\"/contact/\">me contacter</a>."
             }
         ]
     }
