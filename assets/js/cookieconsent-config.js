@@ -17,7 +17,8 @@ CookieConsent.run({
     language: {
         default: 'fr',
         translations: {
-            fr: './assets/js/cc_fr.json'
+            fr: './assets/js/cc_fr.json',
+            en: './assets/js/cc_en.json'
             }
     }
 });

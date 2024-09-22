@@ -4,7 +4,8 @@
         "description": "Consent Modal Description",
         "acceptAllBtn": "Accept all",
         "acceptNecessaryBtn": "Reject all",
-        "showPreferencesBtn": "Manage preferences"
+        "showPreferencesBtn": "Manage preferences",
+        "footer": "<a href=\"/privacy/\">Privacy Policy</a>\n<a href=\"/term/\">Terms and conditions</a>"        
     },
     "preferencesModal": {
         "title": "Cookie preferences",
@@ -51,7 +52,7 @@
             },
             {
                 "title": "More information",
-                "description": "For any queries in relation to our policy on cookies and your choices, please <a class=\"cc-link\" href=\"#yourdomain.com\">contact us</a>."
+                "description": "For any queries in relation to our policy on cookies and your choices, please <a class=\"cc-link\" href=\"/contact/\">contact us</a>."
             }
         ]
     }
