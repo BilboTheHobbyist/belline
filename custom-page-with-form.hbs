@@ -1,0 +1,12 @@
+{{!< page}}
+{{#contentFor "form-area"}}
+ <form class="contact-form" action="https://getform.io/f/9de64cfa-0a4a-4fd2-b385-687e2059cae6" method="POST">
+  <label for="full-name">{{t "Your name"}}</label>
+  <input type="text" name="name" id="full-name" placeholder="First and Last" required>
+  <label for="email-address">{{t "Your email address"}}</label>
+  <input type="email" name="_replyto" id="email-address" placeholder="{{t "youremail@example.com"}}" required>
+  <label for="message">{{t "Your message"}}</label>
+  <textarea rows="5" name="message" id="message" placeholder="Your message" required></textarea>
+  <input type="submit" value="{{t "Submit"}}">
+</form>
+{{/contentFor}}
